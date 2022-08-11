@@ -1,13 +1,47 @@
-h1 {color:black;
+h1 {
+  color:white;
   font-family: verdana;
   font-size: 600%;
   text-align: center;
 }
 p {
-  color:whitesmoke;
+  color:white;
   font-family: courier;
   font-size: 160%;
 }
 body {
-  background-color: powderblue;
+  background-image: url("images/2dtree.png");
+  padding:5px;
+}
+.human {
+  color:red;
+}
+
+div {
+  border-radius: 10px;
+  padding:20px;
+  margin:10px 10px 30px 10px;          
+}
+.padding-div2{
+  margin-bottom:5px;
+}
+div.flags {
+  margin:5px 15px 15px;
+  background-color:aqua;
+  display:inline-block;
+  justify-content: center;
+}
+p.flags {
+  font-size:200%;
+  color:darkcyan;
+  text-align:center;
+}
+img.flags {
+  opacity:0.9;
+  height:400px;
+  width:100%;
+  margin:1px;
+}
+img:hover.flags {
+  opacity:1.0;
 }
